@@ -37,7 +37,7 @@ By specifying the model type `--model sfl/dfl`, the data split `--split dev/test
 
 Note that these results are slightly different from the paper as a different random seed is used.
 
-### Obtain your own model
+### 4. Train your own model
 
 The configuration files for deterministic and stochastic fine-grained labeling are put under `config/`. The training script is based on a PyTorch experiment runner [torchzq](https://github.com/enhuiz/torchzq/tree/main/torchzq). The hyperparameters in the yaml file will be automatically pass to the `stochastic_cslr/runner.py` script. You need to either clone the repo or download the configuration files first. Before running, you need to change to the data path to the `phoenix-2014-multisigner/` folder.
 
