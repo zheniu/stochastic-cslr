@@ -16,7 +16,8 @@ Also, you need to install `sclite` for evaluation. Take a look at step 2 for ins
 
 - Download the RWTH-PHOENIX-2014 dataset [here](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/).
 - Unzip it and obtain the path to `phoenix-2014-multisigner/` folder for later use.
-- Install `sclite` for evaluation, check `phoenix-2014-multisigner/evaluation/NIST-sclite_sctk-2.4.0-20091110-0958.tar.bz2` for detail. After installation, put it in your `PATH` for evaluation.
+- Install `sclite` for evaluation. Check `phoenix-2014-multisigner/evaluation/NIST-sclite_sctk-2.4.0-20091110-0958.tar.bz2` for detail. 
+- After installing `sclite`, put it in your `PATH`.
 
 ### 3. Run a quick test
 
@@ -36,6 +37,8 @@ By specifying the model type `--model sfl/dfl`, the data split `--split dev/test
 | sfl + lm | 24.3 11.4/8.5/4.4     | 25.3 12.4/8.5/4.3      |
 
 Note that these results are slightly different from the paper as a different random seed is used.
+
+You may also take a look at `quick_test.py` as it shows how to use the pretrained models.
 
 ### 4. Train your own model
 
