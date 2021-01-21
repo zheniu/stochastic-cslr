@@ -1,0 +1,7 @@
+default: config/dfl-fp16.yml
+
+rdim: 32
+use_sfl: true
+max_num_states: 5
+
+ent_coef: 0.01
