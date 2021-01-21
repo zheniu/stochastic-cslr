@@ -19,7 +19,7 @@ use_sfl: false
 batch_size: 8
 
 train:
-  max_epochs: 50
+  max_epochs: 30
   lr: "Lambda(lambda e: max(1e-4 * 0.95 ** ((e - 1) // 2), 1e-5), epochwise=True)"
   save_every: 5
   validate_every: 1
