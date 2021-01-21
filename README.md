@@ -39,7 +39,9 @@ Note that these results are slightly different from the paper as a different ran
 
 ### 4. Train your own model
 
-The configuration files for deterministic and stochastic fine-grained labeling are put under `config/`. The training script is based on a PyTorch experiment runner [torchzq](https://github.com/enhuiz/torchzq/tree/main/torchzq), which automatically reads the hyperparameters in the yaml file and pass them to `stochastic_cslr/runner.py`. Before running, you need to change to the data path to the `phoenix-2014-multisigner/` folder.
+The configuration files for deterministic and stochastic fine-grained labeling are put under `config/`. The training script is based on a PyTorch experiment runner [torchzq](https://github.com/enhuiz/torchzq/tree/main/torchzq), which automatically reads the hyperparameters in the yaml file and pass them to `stochastic_cslr/runner.py`. 
+
+Before running, change the data path to `phoenix-2014-multisigner/` first.
 
 #### Train (for instance, dfl):
 
