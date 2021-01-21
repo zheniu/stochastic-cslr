@@ -20,7 +20,7 @@ To install `sclite` for evaluation, please check this file under the dataset fol
 
 ### 3. Run a quick test
 
-You may download the script `quick_test.py` and put it directory you want for a quick test.
+You use the script `quick_test.py` for a quick test.
 
 ```
 python3 quick_test.py --data-root your_path_to/phoenix-2014-multisigner
