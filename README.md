@@ -14,7 +14,7 @@ Also, please install `sclite` and put it in your PATH for evaluation. Please tak
 
 ### 2. Prepare the dataset
 
-Download the RWTH-PHOENIX-2014 dataset [here](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/), unzip it and obtain the path to `phoenix-2014-multisigner/` folder for later use.
+Download the RWTH-PHOENIX-2014 dataset [here](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/). Then, unzip it and obtain the path to `phoenix-2014-multisigner/` folder for later use.
 
 Under the dataset folder, you can find a file `phoenix-2014-multisigner/evaluation/NIST-sclite_sctk-2.4.0-20091110-0958.tar.bz2`, this helps you install `sclite`, after installation, put `sclite` into your PATH for later evaluation.
 
