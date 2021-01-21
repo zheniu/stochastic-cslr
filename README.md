@@ -10,13 +10,13 @@ This is the PyTorch implementation for the ECCV 2020 paper: [Stochastic Fine-gra
 pip install git+https://github.com/zheniu/stochastic-cslr
 ```
 
-Also, please install `sclite` and put it in your `PATH` for evaluation. Take a look at step 2 for instructions.
+Also, you need to install `sclite` for evaluation. Take a look at step 2 for instructions.
 
 ### 2. Prepare the dataset
 
 - Download the RWTH-PHOENIX-2014 dataset [here](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/).
 - Unzip it and obtain the path to `phoenix-2014-multisigner/` folder for later use.
-- Install `sclite` for evaluation, check `phoenix-2014-multisigner/evaluation/NIST-sclite_sctk-2.4.0-20091110-0958.tar.bz2` for detail.
+- Install `sclite` for evaluation, check `phoenix-2014-multisigner/evaluation/NIST-sclite_sctk-2.4.0-20091110-0958.tar.bz2` for detail. After installation, put it in your `PATH` for evaluation.
 
 ### 3. Run a quick test
 
