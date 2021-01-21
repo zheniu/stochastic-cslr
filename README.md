@@ -10,13 +10,17 @@ This is the PyTorch implementation for the ECCV 2020 paper: [Stochastic Fine-gra
 pip install git+https://github.com/zheniu/stochastic-cslr
 ```
 
+Also, please install `sclite` and put it in your PATH for evaluation. Please take a look at step 2 for instructions.
+
 ### 2. Prepare the dataset
 
 Download the RWTH-PHOENIX-2014 dataset here: [RWTH-PHOENIX-Weather 2014](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/), unzip it and obtain the path to `phoenix-2014-multisigner/` folder for later use.
 
+Under the dataset folder, you can find a file `phoenix-2014-multisigner/evaluation/NIST-sclite_sctk-2.4.0-20091110-0958.tar.bz2`, this helps you install `sclite`, after installation, put `sclite` into your PATH for later evaluation.
+
 ### 3. Run a quick test
 
-You may download the script `test.py` for a quick test.
+You may download the script `quick_test.py` and put it directory you want for a quick test.
 
 ```
 python3 quick_test.py --data-root your_path_to/phoenix-2014-multisigner
@@ -35,7 +39,7 @@ Note that these results are slightly different from the paper as a different ran
 
 ### Obtain your own model
 
-The configuration file for deterministic and stochastic fine-grained labeling are put under `config/`. The training script is written with [torchzq](https://github.com/enhuiz/torchzq/tree/main/torchzq). The hyperparameters in the yaml file will be automatically pass to the stochastic_cslr/runner.py script. You need to either clone the repo or download the configuration files first. Before running, you need to change to the data path to the `phoenix-2014-multisigner/` folder.
+The configuration files for deterministic and stochastic fine-grained labeling are put under `config/`. The training script is based on a PyTorch experiment runner [torchzq](https://github.com/enhuiz/torchzq/tree/main/torchzq). The hyperparameters in the yaml file will be automatically pass to the `stochastic_cslr/runner.py` script. You need to either clone the repo or download the configuration files first. Before running, you need to change to the data path to the `phoenix-2014-multisigner/` folder.
 
 #### Train (for instance, dfl):
 
