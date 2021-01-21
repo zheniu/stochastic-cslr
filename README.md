@@ -10,7 +10,7 @@ This is the PyTorch implementation for the ECCV 2020 paper: [Stochastic Fine-gra
 pip install git+https://github.com/zheniu/stochastic-cslr
 ```
 
-Also, please install `sclite` and put it in your PATH for evaluation. Please take a look at step 2 for instructions.
+Also, please install `sclite` and put it in your `PATH` for evaluation. Please take a look at step 2 for instructions.
 
 ### 2. Prepare the dataset
 
