@@ -24,6 +24,7 @@ setup(
         "torchzq==1.0.6",
         "tensorboard",
         "imageio",
+        "gdown",
     ],
     url="https://github.com/enhuiz/stochastic_cslr",
 )
