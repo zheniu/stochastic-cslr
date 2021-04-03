@@ -76,4 +76,4 @@ for k, v in results.items():
     with open(path, "w") as f:
         f.write(str(v))
 
-print(f"Results has been writen to {result_dir}.")
+print(f"Result have been writen to {result_dir}.")
